@@ -1,0 +1,115 @@
+/* Write your CSS here */
+
+.repository-each-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8ff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .repository-each-item {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .repository-each-item {
+    width: 30%;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .repository-each-item {
+    width: 23%;
+    margin-left: 10px;
+  }
+}
+.repository-item-image {
+  width: 40%;
+  background-size: cover;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 576px) {
+  .repository-item-image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .repository-item-image {
+    width: 40%;
+  }
+}
+
+.repository-item-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #e73959;
+}
+
+.repository-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.repository-stars-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stars-image {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.stars-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 5px;
+  color: #1e293b;
+}
+
+.repository-forks-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.forks-image {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.forks-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 5px;
+  color: #1e293b;
+}
+
+.repository-issues-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.issues-image {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.issues-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 5px;
+  color: #1e293b;
+}

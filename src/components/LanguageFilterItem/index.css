@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.language-each-item {
+  margin-left: 20px;
+}
+
+.language-button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.lang-border-color {
+  border: 1px solid #0284c7;
+  border-radius: 10px;
+}
+
+.language-item-heading {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0f172a;
+  font-weight: 600;
+}
